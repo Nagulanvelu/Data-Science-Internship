@@ -1,0 +1,22 @@
+COGNIFYZ DATA SCIENCE INTERNSHIP
+LEVEL 1 - TASK 1
+Data Exploration and Preprocessing
+
+Total rows: 9551
+Total columns: 21
+Missing values after cleaning: 0
+
+Rating group summary:
+           Count  Percentage
+Rated       7403       77.51
+Not rated   2148       22.49
+
+Rating descriptive statistics:
+count    9551.000000
+mean        2.666370
+std         1.516378
+min         0.000000
+25%         2.500000
+50%         3.200000
+75%         3.700000
+max         4.900000

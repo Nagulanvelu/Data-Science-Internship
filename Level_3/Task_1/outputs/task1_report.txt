@@ -1,0 +1,21 @@
+COGNIFYZ DATA SCIENCE INTERNSHIP
+LEVEL 3 - TASK 1: PREDICTIVE MODELING
+
+Original dataset shape: (9551, 21)
+Rated restaurants used: 7403
+Training records: 5922
+Testing records: 1481
+
+Target: Aggregate rating
+Records with rating 0 were excluded because they represent restaurants marked as Not rated.
+Rating color and Rating text were excluded to avoid target leakage.
+
+MODEL PERFORMANCE COMPARISON
+            Model      MAE      MSE     RMSE  R2 Score
+    Random Forest 0.247364 0.111440 0.333826  0.639680
+    Decision Tree 0.282547 0.141105 0.375640  0.543762
+Linear Regression 0.311955 0.164603 0.405713  0.467787
+
+Best model by test RMSE: Random Forest
+Interpretation: lower MAE and RMSE indicate smaller prediction errors. Higher R2 indicates more variance explained on the test set.
+These metrics measure performance on this held-out test split and do not guarantee performance on new data.

@@ -1,0 +1,45 @@
+COGNIFYZ DATA SCIENCE INTERNSHIP
+LEVEL 3 - TASK 3: DATA VISUALIZATION
+
+Total dataset records: 9551
+Rated restaurant records: 7403
+
+TOP CUISINES BY AVERAGE RATING
+      Cuisine  Restaurant_Count  Average_Rating
+        Kebab                10        4.380000
+    Brazilian                23        4.343478
+     Filipino                10        4.340000
+   Indonesian                14        4.285714
+Modern Indian                16        4.281250
+International                21        4.247619
+        Cajun                10        4.200000
+       Indian                66        4.156061
+     Bar Food                37        4.145946
+      Western                10        4.140000
+
+TOP CITIES BY AVERAGE RATING
+          City  Restaurant_Count  Average_Rating
+        London                20        4.535000
+Rio de Janeiro                19        4.489474
+       Orlando                20        4.475000
+Rest of Hawaii                20        4.410000
+     Tampa Bay                20        4.410000
+     Bangalore                20        4.375000
+         Dubai                20        4.370000
+       Jakarta                16        4.356250
+     Hyderabad                18        4.344444
+       Chennai                20        4.315000
+
+NUMERIC FEATURE CORRELATIONS
+                      Aggregate rating     Votes  Average Cost for two  Price range
+Aggregate rating              1.000000  0.313691              0.051792     0.437944
+Votes                         0.313691  1.000000              0.067783     0.309444
+Average Cost for two          0.051792  0.067783              1.000000     0.075083
+Price range                   0.437944  0.309444              0.075083     1.000000
+
+Interpretation notes:
+- Only restaurants with ratings above zero were used for rating comparisons.
+- City comparisons include cities with at least 10 rated restaurants.
+- Cuisine comparisons include cuisines with at least 10 restaurant entries.
+- Correlation indicates association, not causation.
+- A restaurant listing multiple cuisines contributes to each cuisine's summary.

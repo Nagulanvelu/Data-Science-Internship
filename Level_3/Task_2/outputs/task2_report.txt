@@ -1,0 +1,35 @@
+COGNIFYZ DATA SCIENCE INTERNSHIP
+LEVEL 3 - TASK 2: CUSTOMER PREFERENCE ANALYSIS
+
+Rated restaurant records: 7394
+Distinct individual cuisines: 143
+Cuisine entries containing multiple cuisine names were split so each individual cuisine could be analyzed.
+Cuisines ranked by rating must have at least 10 restaurants.
+
+TOP 10 CUISINES BY TOTAL VOTES
+     Cuisine  Restaurant_Count  Total_Votes  Average_Rating
+North Indian              3017       595194        3.295128
+     Chinese              2184       363890        3.282280
+     Italian               726       329230        3.748485
+ Continental               699       288213        3.705007
+   Fast Food              1563       183665        3.256750
+    American               380       183106        3.757895
+        Cafe               634       177494        3.682650
+     Mughlai               794       151784        3.270655
+    Desserts               543       105781        3.582320
+       Asian               228       104298        3.898684
+
+TOP 10 CUISINES BY AVERAGE RATING
+      Cuisine  Restaurant_Count  Average_Rating  Total_Votes
+        Kebab                10        4.380000         1536
+    Brazilian                23        4.343478         3252
+     Filipino                10        4.340000         3789
+   Indonesian                14        4.285714        10677
+Modern Indian                16        4.281250        14581
+International                21        4.247619         8122
+        Cajun                10        4.200000         5596
+       Indian                66        4.156061        22391
+     Bar Food                37        4.145946        15681
+      Western                10        4.140000         4749
+
+Interpretation: total votes measure the combined number of votes recorded for restaurants serving a cuisine. They do not necessarily measure unique customers. Average ratings are descriptive associations and do not establish causation.

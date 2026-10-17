@@ -1,0 +1,42 @@
+COGNIFYZ DATA SCIENCE INTERNSHIP
+LEVEL 1 - TASK 2: DESCRIPTIVE ANALYSIS
+
+Total rows: 9551
+Total columns: 21
+
+Numerical descriptive statistics:
+                       count        mean         std     min        25%         50%          75%          max
+Restaurant ID         9551.0  9051128.35  8791521.28   53.00  301962.50  6004089.00  18352291.50  18500652.00
+Country Code          9551.0       18.37       56.75    1.00       1.00        1.00         1.00       216.00
+Longitude             9551.0       64.13       41.47 -157.95      77.08       77.19        77.28       174.83
+Latitude              9551.0       25.85       11.01  -41.33      28.48       28.57        28.64        55.98
+Average Cost for two  9551.0     1199.21    16121.18    0.00     250.00      400.00       700.00    800000.00
+Price range           9551.0        1.80        0.91    1.00       1.00        2.00         2.00         4.00
+Aggregate rating      9551.0        2.67        1.52    0.00       2.50        3.20         3.70         4.90
+Votes                 9551.0      156.91      430.17    0.00       5.00       31.00       131.00     10934.00
+
+Top 10 cuisines:
+Cuisines
+North Indian                      936
+North Indian, Chinese             511
+Chinese                           354
+Fast Food                         354
+North Indian, Mughlai             334
+Cafe                              299
+Bakery                            218
+North Indian, Mughlai, Chinese    197
+Bakery, Desserts                  170
+Street Food                       149
+
+Top 10 cities:
+City
+New Delhi       5473
+Gurgaon         1118
+Noida           1080
+Faridabad        251
+Ghaziabad         25
+Ahmedabad         21
+Amritsar          21
+Bhubaneshwar      21
+Guwahati          21
+Lucknow           21

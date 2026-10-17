@@ -1,0 +1,41 @@
+COGNIFYZ DATA SCIENCE INTERNSHIP
+LEVEL 1 - TASK 3: GEOSPATIAL ANALYSIS
+
+Total restaurants: 9551
+Restaurants with valid coordinates: 9551
+Restaurants mapped: 3000
+
+Top 10 cities by restaurant count:
+City
+New Delhi       5473
+Gurgaon         1118
+Noida           1080
+Faridabad        251
+Ghaziabad         25
+Ahmedabad         21
+Amritsar          21
+Bhubaneshwar      21
+Guwahati          21
+Lucknow           21
+
+City-wise ratings:
+              Restaurant_Count  Average_Rating
+City                                          
+New Delhi                 5473            2.44
+Gurgaon                   1118            2.65
+Noida                     1080            2.04
+Faridabad                  251            1.87
+Ghaziabad                   25            2.85
+Bhubaneshwar                21            3.98
+Lucknow                     21            4.20
+Guwahati                    21            4.19
+Ahmedabad                   21            4.16
+Amritsar                    21            3.69
+
+Coordinate-rating correlations:
+                  Latitude  Longitude  Aggregate rating
+Latitude            1.0000    -0.0975           -0.1799
+Longitude          -0.0975     1.0000           -0.2915
+Aggregate rating   -0.1799    -0.2915            1.0000
+
+Note: Correlation does not establish causation. Only restaurants with positive ratings were used for the coordinate-rating correlation calculation.
