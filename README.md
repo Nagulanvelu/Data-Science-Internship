@@ -1,160 +1,149 @@
-# Cognifyz Data Science Internship 🚀
+# Cognifyz Data Science Internship Project
 
-A hands-on Data Science internship project focused on data preprocessing, exploratory analysis, predictive modeling, customer preference analysis, and data visualization using Python.
+## Project Overview
 
-## 📌 Project Overview
+This project involves analyzing restaurant data using Python to extract insights about restaurant ratings, cuisine preferences, geographic distribution, and performance. It includes data preprocessing, descriptive analytics, geospatial analysis, predictive modeling, and data visualization.
 
-This repository contains completed tasks from **Level 1 and Level 3** of the Cognifyz Data Science Internship.
+The project consists of six analytical modules organized into two main sections.
 
-### 🛠️ Technologies Used
+## Technologies Used
 
 - Python
-- Pandas and NumPy
-- Matplotlib and Seaborn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 - Scikit-learn
-- Jupyter/Python scripts
 - Git and GitHub
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
-
 Cognifyz-Data-Science-Internship/
+│
 ├── Exploratory_Data_Analysis/
 │   ├── Data_Exploration_Preprocessing/
-│   │   ├── task1.py
+│   │   ├── data_quality_analysis.py
 │   │   ├── Dataset.csv
 │   │   └── outputs/
 │   ├── Descriptive_Analytics/
-│   │   ├── task2.py
+│   │   ├── descriptive_analytics.py
 │   │   ├── Dataset.csv
 │   │   └── outputs/
 │   └── Geospatial_Restaurant_Analysis/
-│       ├── task3.py
+│       ├── geospatial_analysis.py
 │       ├── Dataset.csv
 │       └── outputs/
 │
 ├── Advanced_Data_Science/
 │   ├── Restaurant_Rating_Prediction/
-│   │   ├── task1.py
+│   │   ├── restaurant_rating_model.py
 │   │   ├── Dataset.csv
 │   │   └── outputs/
 │   ├── Cuisine_Preference_Analytics/
-│   │   ├── task2.py
+│   │   ├── cuisine_preference_analysis.py
 │   │   ├── Dataset.csv
 │   │   └── outputs/
 │   └── Restaurant_Data_Visualization/
-│       ├── task3.py
+│       ├── restaurant_performance_visualization.py
 │       ├── Dataset.csv
 │       └── outputs/
 │
 └── README.md
-
-
 ```
 
-## 📊 Level 1 — Exploratory Data Analysis
+## Module 1: Data Exploration and Preprocessing
 
-### Task 1: Data Exploration and Preprocessing
-- Explored dataset structure and missing values.
-- Preprocessed restaurant data.
-- Analyzed rating distributions and rating groups.
-- Generated summary tables, charts, and a task report.
+- Examined dataset structure, column types, and missing values.
+- Preprocessed restaurant records and analyzed rating distributions.
+- Grouped restaurants by rating categories.
+- Generated cleaned datasets, summary reports, and charts.
 
-### Task 2: Descriptive Analysis
-- Analyzed numerical statistics.
-- Examined city, country, and cuisine distributions.
-- Identified the top 10 cities and cuisines.
-- Generated CSV summaries and visualizations.
+## Module 2: Descriptive Analytics
 
-### Task 3: Geospatial Analysis
-- Analyzed restaurant locations using latitude and longitude.
-- Examined restaurant distributions across cities.
-- Investigated relationships between location coordinates and ratings.
-- Generated a restaurant location map and supporting reports.
+- Calculated descriptive statistics for numerical variables.
+- Analyzed restaurant counts by city and country.
+- Identified the most frequently represented cuisines.
+- Generated summary tables and visualizations.
 
-## 🤖 Level 3 — Advanced Analysis
+## Module 3: Geospatial Restaurant Analysis
 
-### Task 1: Predictive Modeling
-- Built and compared Linear Regression, Decision Tree, and Random Forest models.
-- Predicted restaurant aggregate ratings.
-- Evaluated performance using MAE, MSE, RMSE, and R².
+- Examined restaurant latitude and longitude coordinates.
+- Analyzed restaurant distributions across cities.
+- Investigated relationships between geographic coordinates and restaurant ratings.
+- Generated location maps and analytical reports.
 
-**Best model:** Random Forest Regression  
+## Module 4: Restaurant Rating Prediction
+
+- Developed regression models to predict aggregate restaurant ratings.
+- Compared Linear Regression, Decision Tree, and Random Forest models.
+- Evaluated models using MAE, MSE, RMSE, and R².
+
+**Best-performing model:** Random Forest Regression
+
 **Test R² score:** 0.6397
 
-### Task 2: Customer Preference Analysis
-- Analyzed cuisine preferences using restaurant ratings and votes.
-- Identified popular cuisines by total votes.
-- Compared average ratings across cuisines.
-- Generated ranked CSV files and charts.
+## Module 5: Cuisine Preference Analytics
 
-**Most-voted cuisine:** North Indian — 595,194 total votes  
-**Highest average-rated cuisine:** Kebab — 4.38/5, based on 10 restaurant entries
+- Analyzed cuisine-level restaurant ratings and customer votes.
+- Identified popular cuisines based on total recorded votes.
+- Compared average ratings across cuisine categories.
+- Generated cuisine rankings, summary tables, and charts.
 
-### Task 3: Data Visualization
-- Visualized restaurant rating distributions.
+**Highest total votes:** North Indian — 595,194
+
+**Highest average-rated cuisine:** Kebab — 4.38/5, based on 10 restaurant entries.
+
+## Module 6: Restaurant Data Visualization
+
+- Visualized aggregate rating distributions.
 - Compared average ratings across cuisines and cities.
-- Examined votes versus ratings and cost versus ratings.
-- Generated a numeric correlation heatmap.
+- Examined relationships between votes, restaurant costs, and ratings.
+- Generated correlation heatmaps and analytical charts.
 
-**Highest average-rated city in the analysis:** London — 4.535/5
+**Highest average-rated city in the analysis:** London — 4.535/5.
 
-## ⚙️ Installation and Usage
+## Installation and Setup
 
-### 1. Clone the repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd Cognifyz-Data-Science-Internship
-```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
-
-### 2. Install dependencies
+### Install dependencies
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-### 3. Run a task
+## Execution
 
-Navigate to the required task folder and run its script:
+Navigate to the relevant module directory and run its Python script:
 
 ```bash
-python task1.py
-python task2.py
-python task3.py
+python actual_script_name.py
 ```
 
-Run each script from its own task folder, where its `Dataset.csv` file is located.
+Run each script from its own directory, where the corresponding `Dataset.csv` file is located. Generated charts, CSV summaries, and reports are saved in the module's `outputs` directory.
 
-## 📈 Skills Demonstrated
+## Evaluation Metrics
 
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Statistical summaries
-- Data visualization
-- Geospatial analysis
-- Regression modeling
-- Model evaluation
-- Customer preference analysis
-- Python scripting and project organization
+The restaurant rating prediction module uses the following metrics:
 
-## ⚠️ Notes
+- **MAE:** Mean Absolute Error
+- **MSE:** Mean Squared Error
+- **RMSE:** Root Mean Squared Error
+- **R²:** Coefficient of Determination
 
-- Restaurant rating comparisons exclude unrated records where specified in the analysis.
-- Cuisine and city rankings depend on the available dataset and filtering criteria.
+## Notes
+
+- Unrated restaurant records are excluded from rating comparisons where specified.
+- Cuisine and city rankings depend on the dataset and analysis filters.
 - Correlation indicates association and does not establish causation.
-- Model performance reflects the dataset and train/test split used in this project.
+- Model performance reflects the dataset and train/test split used.
 
-## 👨‍💻 Author
+## Author
 
 **Nagulan V**
 
 B.Tech Artificial Intelligence  
 St. Joseph's Institute of Technology
 
----
+## Acknowledgment
 
-*Completed as part of the Cognifyz Data Science Internship.*
+This project was completed as part of the Cognifyz Data Science Internship.
