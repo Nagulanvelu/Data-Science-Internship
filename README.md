@@ -18,25 +18,39 @@ This repository contains completed tasks from **Level 1 and Level 3** of the Cog
 ## 📂 Project Structure
 
 ```text
+
 Cognifyz-Data-Science-Internship/
-├── Level_1/
-│   ├── Task_1/
-│   ├── Task_2/
-│   └── Task_3/
-├── Level_3/
-│   ├── Task_1/
-│   │   ├── Dataset.csv
+├── Exploratory_Data_Analysis/
+│   ├── Data_Exploration_Preprocessing/
 │   │   ├── task1.py
-│   │   └── outputs/
-│   ├── Task_2/
 │   │   ├── Dataset.csv
-│   │   ├── task2.py
 │   │   └── outputs/
-│   └── Task_3/
-│       ├── Dataset.csv
+│   ├── Descriptive_Analytics/
+│   │   ├── task2.py
+│   │   ├── Dataset.csv
+│   │   └── outputs/
+│   └── Geospatial_Restaurant_Analysis/
 │       ├── task3.py
+│       ├── Dataset.csv
 │       └── outputs/
+│
+├── Advanced_Data_Science/
+│   ├── Restaurant_Rating_Prediction/
+│   │   ├── task1.py
+│   │   ├── Dataset.csv
+│   │   └── outputs/
+│   ├── Cuisine_Preference_Analytics/
+│   │   ├── task2.py
+│   │   ├── Dataset.csv
+│   │   └── outputs/
+│   └── Restaurant_Data_Visualization/
+│       ├── task3.py
+│       ├── Dataset.csv
+│       └── outputs/
+│
 └── README.md
+
+
 ```
 
 ## 📊 Level 1 — Exploratory Data Analysis
